@@ -1,0 +1,42 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: cornflowerblue;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+h1,h2,h3,h4,h5,h6,p{
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+.buturma {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  width: 800px;
+  margin-left: 200px;
+  margin-top: 100px;
+}
+.buturma h1 {
+  color: wheat;
+  font-weight:bold ;
+  text-align: center;
+}
+
+
+.buturma h1:hover {
+ color: rgb(8, 31, 235);
+ border: 3px solid black;
+ background: blanchedalmond;
+ border-radius: 6px;
+ padding: 20px;
+}
